@@ -1,0 +1,361 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:yatagarasu
+LIBS:Sensors
+LIBS:can
+LIBS:newdrone-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MPU-6000-2 U?
+U 1 1 56F77CB1
+P 5100 3550
+F 0 "U?" H 4150 2250 60  0000 C CNN
+F 1 "MPU-6000" H 4350 2150 60  0000 C CNN
+F 2 "mylib:MPU-6000" H 5100 3550 60  0001 C CNN
+F 3 "" H 5100 3550 60  0000 C CNN
+	1    5100 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L MPU-9250 U?
+U 1 1 56F77CB8
+P 8050 3650
+F 0 "U?" H 7250 2400 60  0000 C CNN
+F 1 "MPU-9250" H 7450 2300 60  0000 C CNN
+F 2 "mylib:MPU-9250" H 8050 3650 60  0001 C CNN
+F 3 "" H 8050 3650 60  0000 C CNN
+	1    8050 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L MS5611-01BA03 U?
+U 1 1 56F77CBF
+P 5050 2250
+F 0 "U?" H 4850 2150 60  0000 C CNN
+F 1 "MS5611-01BA03" H 5050 2250 60  0000 C CNN
+F 2 "mylib:MS5611-01BA03" H 5050 2250 60  0001 C CNN
+F 3 "" H 5050 2250 60  0000 C CNN
+	1    5050 2250
+	1    0    0    -1  
+$EndComp
+Text Notes 5400 1450 0    60   ~ 0
+SPI Connect\n
+$Comp
+L GND #PWR?
+U 1 1 56F77CC7
+P 4300 2700
+F 0 "#PWR?" H 4300 2450 50  0001 C CNN
+F 1 "GND" H 4300 2550 50  0000 C CNN
+F 2 "" H 4300 2700 60  0000 C CNN
+F 3 "" H 4300 2700 60  0000 C CNN
+	1    4300 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 56F77CCD
+P 4300 2400
+F 0 "C?" H 4325 2500 50  0000 L CNN
+F 1 "100n" H 4325 2300 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4338 2250 30  0001 C CNN
+F 3 "" H 4300 2400 60  0000 C CNN
+	1    4300 2400
+	1    0    0    -1  
+$EndComp
+Text GLabel 5050 3400 2    60   Input ~ 0
+GPIO-B_3.3
+NoConn ~ 8100 3700
+NoConn ~ 7800 5050
+NoConn ~ 4850 4950
+NoConn ~ 4350 4500
+NoConn ~ 8200 3700
+NoConn ~ 8300 3700
+NoConn ~ 5350 3600
+NoConn ~ 5250 3600
+$Comp
+L C C?
+U 1 1 56F77CDE
+P 5800 5400
+F 0 "C?" H 5825 5500 50  0000 L CNN
+F 1 "100n" H 5825 5300 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5838 5250 30  0001 C CNN
+F 3 "" H 5800 5400 60  0000 C CNN
+	1    5800 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 56F77CE5
+P 4950 5400
+F 0 "C?" H 4975 5500 50  0000 L CNN
+F 1 "100n" H 4975 5300 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4988 5250 30  0001 C CNN
+F 3 "" H 4950 5400 60  0000 C CNN
+	1    4950 5400
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7300 4100
+NoConn ~ 4350 4000
+$Comp
+L +3.3V #PWR?
+U 1 1 56F77CEE
+P 5550 5050
+F 0 "#PWR?" H 5550 4900 50  0001 C CNN
+F 1 "+3.3V" H 5550 5190 50  0000 C CNN
+F 2 "" H 5550 5050 60  0000 C CNN
+F 3 "" H 5550 5050 60  0000 C CNN
+	1    5550 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 56F77CF4
+P 8750 5400
+F 0 "C?" H 8775 5500 50  0000 L CNN
+F 1 "100n" H 8775 5300 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 8788 5250 30  0001 C CNN
+F 3 "" H 8750 5400 60  0000 C CNN
+	1    8750 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 56F77CFB
+P 7900 5400
+F 0 "C?" H 7925 5500 50  0000 L CNN
+F 1 "100n" H 7925 5300 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7938 5250 30  0001 C CNN
+F 3 "" H 7900 5400 60  0000 C CNN
+	1    7900 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 56F77D02
+P 8500 5200
+F 0 "#PWR?" H 8500 5050 50  0001 C CNN
+F 1 "+3.3V" H 8500 5340 50  0000 C CNN
+F 2 "" H 8500 5200 60  0000 C CNN
+F 3 "" H 8500 5200 60  0000 C CNN
+	1    8500 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 56F77D08
+P 8500 5550
+F 0 "#PWR?" H 8500 5300 50  0001 C CNN
+F 1 "GND" H 8500 5400 50  0000 C CNN
+F 2 "" H 8500 5550 60  0000 C CNN
+F 3 "" H 8500 5550 60  0000 C CNN
+	1    8500 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 56F77D0E
+P 5550 5550
+F 0 "#PWR?" H 5550 5300 50  0001 C CNN
+F 1 "GND" H 5550 5400 50  0000 C CNN
+F 2 "" H 5550 5550 60  0000 C CNN
+F 3 "" H 5550 5550 60  0000 C CNN
+	1    5550 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 56F77D14
+P 6000 3850
+F 0 "C?" H 6025 3950 50  0000 L CNN
+F 1 "2.2n" H 6025 3750 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6038 3700 30  0001 C CNN
+F 3 "" H 6000 3850 60  0000 C CNN
+	1    6000 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 56F77D1B
+P 4300 2150
+F 0 "#PWR?" H 4300 2000 50  0001 C CNN
+F 1 "+3.3V" H 4300 2290 50  0000 C CNN
+F 2 "" H 4300 2150 60  0000 C CNN
+F 3 "" H 4300 2150 60  0000 C CNN
+	1    4300 2150
+	1    0    0    -1  
+$EndComp
+Text GLabel 5650 1850 2    60   Output ~ 0
+SPIO_SCLK_3.3
+Text GLabel 5750 2000 2    60   Input ~ 0
+SPIO_SDIN_3.3
+Text GLabel 5850 2150 2    60   Output ~ 0
+SPIO_DOUT_3.3
+Text GLabel 8000 3550 2    60   Output ~ 0
+SPI0_CS_3.3
+NoConn ~ 8300 5050
+NoConn ~ 8200 5050
+NoConn ~ 8100 5050
+NoConn ~ 5350 4950
+NoConn ~ 5250 4950
+NoConn ~ 5150 4950
+Wire Wire Line
+	4600 2650 4300 2650
+Wire Wire Line
+	4300 2550 4300 2700
+Wire Wire Line
+	4300 2550 4600 2550
+Connection ~ 4300 2650
+Connection ~ 4300 2550
+Wire Wire Line
+	4600 2450 4600 2250
+Wire Wire Line
+	4600 2250 4300 2250
+Wire Wire Line
+	4300 2250 4300 2150
+Connection ~ 4300 2250
+Wire Wire Line
+	4600 2750 4600 3250
+Wire Wire Line
+	4600 2950 5550 2950
+Wire Wire Line
+	5550 2950 5550 2750
+Wire Wire Line
+	5550 2450 6300 2450
+Wire Wire Line
+	5550 2550 6150 2550
+Wire Wire Line
+	5550 2650 6000 2650
+Wire Wire Line
+	6300 2450 6300 3400
+Wire Wire Line
+	6000 2800 6400 2800
+Wire Wire Line
+	6000 2650 6000 2800
+Wire Wire Line
+	7900 3700 7900 3400
+Wire Wire Line
+	7900 3400 6300 3400
+Wire Wire Line
+	6150 3700 7800 3700
+Wire Wire Line
+	6150 2550 6150 3700
+Wire Wire Line
+	4850 3600 4850 3050
+Wire Wire Line
+	4850 3050 6150 3050
+Connection ~ 6150 3050
+Wire Wire Line
+	4950 3600 4950 3150
+Wire Wire Line
+	4950 3150 6300 3150
+Connection ~ 6300 3150
+Wire Wire Line
+	5050 4950 5050 5150
+Wire Wire Line
+	8000 5150 8000 5050
+Wire Wire Line
+	5050 5150 8000 5150
+Wire Wire Line
+	4950 4950 4950 5250
+Wire Wire Line
+	4950 5050 5800 5050
+Wire Wire Line
+	5800 4500 5800 5250
+Wire Wire Line
+	5800 4000 6000 4000
+Wire Wire Line
+	6000 4000 6000 5550
+Connection ~ 4950 5050
+Wire Wire Line
+	6000 5550 4950 5550
+Wire Wire Line
+	8750 4100 9100 4100
+Wire Wire Line
+	9100 4100 9100 5550
+Wire Wire Line
+	9100 5550 7900 5550
+Wire Wire Line
+	7900 5050 7900 5250
+Wire Wire Line
+	7900 5200 8750 5200
+Connection ~ 7900 5200
+Wire Wire Line
+	8750 4600 8750 5250
+Connection ~ 8750 5550
+Connection ~ 8750 5200
+Connection ~ 8500 5550
+Connection ~ 5550 5550
+Connection ~ 5800 5550
+Connection ~ 5800 5050
+Wire Wire Line
+	6400 2800 6400 5150
+Connection ~ 6400 5150
+Wire Wire Line
+	5150 3600 5150 3550
+Wire Wire Line
+	5150 3550 6000 3550
+Wire Wire Line
+	6000 3550 6000 3700
+Wire Wire Line
+	8000 3700 8000 3550
+Wire Wire Line
+	5050 3600 5050 3400
+Wire Wire Line
+	5650 2450 5650 1850
+Connection ~ 5650 2450
+Wire Wire Line
+	5750 2550 5750 2000
+Connection ~ 5750 2550
+Wire Wire Line
+	5850 2650 5850 2150
+Connection ~ 5850 2650
+Connection ~ 5550 5050
+Connection ~ 8500 5200
+Connection ~ 6400 2800
+Text HLabel 3850 3250 0    60   Input ~ 0
+GPIO_A_3V3
+Wire Wire Line
+	4600 3250 3850 3250
+Connection ~ 4600 2950
+$EndSCHEMATC

@@ -1,0 +1,866 @@
+.HEA
+.TIM 2016/05/14 17:12:15
+.APP "Eeschema 4.0.1-stable"
+
+.ADD_COM     U3     "PCA9306"
+.ADD_COM     U4     "PCA9306"
+.ADD_COM     CB8     "104"
+.ADD_COM     R19     "200K"
+.ADD_COM     SW1     "RESET"
+.ADD_COM     P3     "ttyAMA2"
+.ADD_COM     P2     "+12V_IN"
+.ADD_COM     P1     "CONN_02X20"
+.ADD_COM     R20     "2K2"
+.ADD_COM     R21     "2K2"
+.ADD_COM     R16     "200K"
+.ADD_COM     R17     "2K2"
+.ADD_COM     R18     "2K2"
+.ADD_COM     CB6     "104"
+.ADD_COM     R6     "47K"
+.ADD_COM     R7     "47K"
+.ADD_COM     R8     "47K"
+.ADD_COM     R9     "47K"
+.ADD_COM     R10     "47K"
+.ADD_COM     R11     "47K"
+.ADD_COM     CB1     "104"
+.ADD_COM     CB2     "104"
+.ADD_COM     CB3     "104"
+.ADD_COM     CB4     "104"
+.ADD_COM     CB5     "104"
+.ADD_COM     CB7     "104"
+.ADD_COM     R12     "22K"
+.ADD_COM     R13     "22K"
+.ADD_COM     R14     "22K"
+.ADD_COM     R15     "22K"
+.ADD_COM     TH1     "TH"
+.ADD_COM     TH2     "TH"
+.ADD_COM     TH3     "TH"
+.ADD_COM     TH4     "TH"
+.ADD_COM     R2     "47K"
+.ADD_COM     R1     "2K2"
+.ADD_COM     R5     "47K"
+.ADD_COM     R3     "2K2"
+.ADD_COM     R4     "2K2"
+.ADD_COM     Q1     "MMBT3904"
+.ADD_COM     Q2     "MMBT3904"
+.ADD_COM     U2     "8T245"
+.ADD_COM     U1     "8T245"
+.ADD_COM     CON1     "CONSOLE"
+.ADD_COM     R46     "22"
+.ADD_COM     R48     "22"
+.ADD_COM     CC4     "39pF"
+.ADD_COM     CC3     "39pF"
+.ADD_COM     CB28     "104"
+.ADD_COM     R47     "10K"
+.ADD_COM     U16     "FT230XS"
+.ADD_COM     R49     "220"
+.ADD_COM     R50     "220"
+.ADD_COM     CE4     "10uF"
+.ADD_COM     CB27     "104"
+.ADD_COM     TH13     "TH"
+.ADD_COM     TH14     "TH"
+.ADD_COM     TH15     "TH"
+.ADD_COM     U6     "MPU-6000"
+.ADD_COM     U7     "MPU-9250"
+.ADD_COM     U5     "MS5611-01BA03"
+.ADD_COM     CB9     "104"
+.ADD_COM     CB11     "104"
+.ADD_COM     CB10     "104"
+.ADD_COM     CB13     "104"
+.ADD_COM     CB12     "104"
+.ADD_COM     CC1     "2200pF"
+.ADD_COM     R22     "47K"
+.ADD_COM     R23     "47K"
+.ADD_COM     R24     "47K"
+.ADD_COM     U9     "MAX14830"
+.ADD_COM     R34     "10K"
+.ADD_COM     P4     "ttyMAX3"
+.ADD_COM     P5     "ttyMAX2"
+.ADD_COM     P6     "ttyMAX1"
+.ADD_COM     P7     "ttyMAX0"
+.ADD_COM     LED9     "LED"
+.ADD_COM     R39     "470"
+.ADD_COM     LED10     "LED"
+.ADD_COM     R40     "470"
+.ADD_COM     LED11     "LED"
+.ADD_COM     R41     "470"
+.ADD_COM     LED12     "LED"
+.ADD_COM     R42     "470"
+.ADD_COM     R25     "470"
+.ADD_COM     R35     "22K"
+.ADD_COM     R36     "22K"
+.ADD_COM     R37     "22K"
+.ADD_COM     R38     "22K"
+.ADD_COM     R33     "47K"
+.ADD_COM     LED1     "LED"
+.ADD_COM     R26     "470"
+.ADD_COM     LED2     "LED"
+.ADD_COM     R27     "470"
+.ADD_COM     LED3     "LED"
+.ADD_COM     R28     "470"
+.ADD_COM     LED4     "LED"
+.ADD_COM     R29     "470"
+.ADD_COM     LED5     "LED"
+.ADD_COM     R30     "470"
+.ADD_COM     LED6     "LED"
+.ADD_COM     R31     "470"
+.ADD_COM     LED7     "LED"
+.ADD_COM     R32     "470"
+.ADD_COM     LED8     "LED"
+.ADD_COM     U8     "SG-210STF_16MHz"
+.ADD_COM     CB16     "104"
+.ADD_COM     CE1     "1uF"
+.ADD_COM     CB17     "104"
+.ADD_COM     CB14     "104"
+.ADD_COM     CB15     "104"
+.ADD_COM     TH5     "TH"
+.ADD_COM     TH9     "TH"
+.ADD_COM     TH6     "TH"
+.ADD_COM     TH7     "TH"
+.ADD_COM     TH8     "TH"
+.ADD_COM     SW2     "DIP_SW4"
+.ADD_COM     CE2     "3.3uF"
+.ADD_COM     U11     "MCP2515"
+.ADD_COM     U10     "MCP2551-I/SN"
+.ADD_COM     R44     "120"
+.ADD_COM     R45     "47K"
+.ADD_COM     TH11     "TH"
+.ADD_COM     TH10     "TH"
+.ADD_COM     R43     "47K"
+.ADD_COM     U12     "SG-210STF_16MHz"
+.ADD_COM     CB19     "104"
+.ADD_COM     TH12     "TH"
+.ADD_COM     CB18     "104"
+.ADD_COM     CB20     "104"
+.ADD_COM     P8     "CAN"
+.ADD_COM     U13     "HMC5883L"
+.ADD_COM     CB23     "104"
+.ADD_COM     CB24     "104"
+.ADD_COM     CC2     "0.22uF"
+.ADD_COM     CB21     "104"
+.ADD_COM     CB22     "104"
+.ADD_COM     P9     "PCA9685_OUT"
+.ADD_COM     U14     "BME280"
+.ADD_COM     CE3     "4.7uF"
+.ADD_COM     P10     "I2C1_0"
+.ADD_COM     P11     "I2C1_1"
+.ADD_COM     P12     "I2C1_2"
+.ADD_COM     U15     "2SMPB-02A"
+.ADD_COM     CB25     "104"
+.ADD_COM     CB26     "104"
+.ADD_COM     CE6     "10uF"
+.ADD_COM     CB30     "104"
+.ADD_COM     CE5     "10uF"
+.ADD_COM     CB29     "104"
+.ADD_COM     CE8     "10uF"
+.ADD_COM     CB32     "104"
+.ADD_COM     CE7     "10uF"
+.ADD_COM     CB31     "104"
+.ADD_COM     CE10     "10uF"
+.ADD_COM     CB34     "104"
+.ADD_COM     CE9     "10uF"
+.ADD_COM     CB33     "104"
+.ADD_COM     U17     "NCP1117ST18T3G"
+.ADD_COM     U18     "NCP1117ST33T3G"
+.ADD_COM     U19     "NCP1117ST50T3G"
+
+
+.ADD_TER   R19   1     "+3V3"
+.TER       P9   1
+            R17   1
+            R45   1
+            R20   1
+            R43   1
+            R21   1
+            R16   1
+            P3   1
+            R18   1
+            U11   18
+            U13   13
+            U14   2
+            CB24   1
+            CB23   1
+            U12   1
+            U13   2
+            U13   4
+            U14   6
+            U12   4
+            U15   6
+            CB20   1
+            U14   8
+            U8   1
+            LED8   2
+            CB16   1
+            LED7   2
+            LED6   2
+            CB17   1
+            CB14   1
+            U8   4
+            CB15   1
+            LED1   2
+            R33   1
+            R38   1
+            R37   1
+            R36   1
+            R35   1
+            R34   1
+            U9   43
+            U9   9
+            U9   1
+            P7   1
+            U9   2
+            P6   1
+            P4   1
+            P5   1
+            U9   47
+            CE2   1
+            U1   24
+            U1   23
+            LED4   2
+            LED2   2
+            LED3   2
+            CB19   1
+            LED5   2
+            R24   1
+            R22   1
+            CE8   1
+            U18   2
+            R1   1
+            CB32   1
+            R23   1
+            U2   2
+            CB3   1
+            CB2   1
+            U2   1
+            CB12   1
+            CB13   1
+            U6   13
+            U6   8
+            U7   8
+            R3   1
+            U7   13
+            U5   1
+            CB10   1
+            CB9   1
+            U15   8
+            CB25   1
+            CB26   1
+            CB11   1
+            CB22   1
+            CB21   1
+            P11   1
+            P10   1
+            P12   1
+            U15   2
+
+.ADD_TER   Q1   1     "Net-(Q1-Pad1)"
+.TER       R2   2
+
+.ADD_TER   Q2   1     "Net-(Q2-Pad1)"
+.TER       R5   2
+
+.ADD_TER   U2   10     "Net-(R15-Pad1)"
+.TER       U2   10
+            U2   10
+            U2   10
+            U2   10
+            U2   10
+            R15   1
+            U2   10
+
+.ADD_TER   U2   9     "Net-(R14-Pad1)"
+.TER       U2   9
+            U2   9
+            U2   9
+            R14   1
+            U2   9
+            U2   9
+            U2   9
+
+.ADD_TER   P1   28     "GPIO_F"
+.TER       U2   20
+
+.ADD_TER   TH4   1     "Net-(R4-Pad2)"
+.TER       R4   2
+            U1   22
+            U2   14
+
+.ADD_TER   U9   7     "/max/~MAX14830_IRQ"
+.TER       R34   2
+            U2   4
+
+.ADD_TER   U2   6     "Net-(P3-Pad4)"
+.TER       P3   4
+
+.ADD_TER   R12   1     "Net-(R12-Pad1)"
+.TER       U2   7
+
+.ADD_TER   R13   1     "Net-(R13-Pad1)"
+.TER       U2   8
+
+.ADD_TER   R9   2     "GPIO_C"
+.TER       P1   25
+            U1   8
+
+.ADD_TER   U1   9     "GPIO_D"
+.TER       U1   9
+            U1   9
+            P1   26
+            U1   9
+            U1   9
+            U1   9
+            U1   9
+            R10   2
+
+.ADD_TER   U1   10     "GPIO_E"
+.TER       U1   10
+            P1   27
+            U1   10
+            U1   10
+            U1   10
+            U1   10
+            U1   10
+            R11   2
+
+.ADD_TER   U2   19     "PCM_DO"
+.TER       P1   20
+
+.ADD_TER   U11   17     "/can/~RESET"
+.TER       R3   2
+            Q2   3
+            U9   8
+
+.ADD_TER   P1   35     "Net-(P1-Pad35)"
+.TER       R2   1
+
+.ADD_TER   Q1   3     "Net-(Q1-Pad3)"
+.TER       R1   2
+            R5   1
+            U2   22
+
+.ADD_TER   TH3   1     "Net-(TH3-Pad1)"
+.TER       U2   15
+
+.ADD_TER   TH1   1     "Net-(TH1-Pad1)"
+.TER       U2   17
+
+.ADD_TER   U2   16     "Net-(TH2-Pad1)"
+.TER       TH2   1
+
+.ADD_TER   TH13   1     "Net-(TH13-Pad1)"
+.TER       U16   2
+
+.ADD_TER   U16   7     "Net-(R49-Pad2)"
+.TER       R49   2
+
+.ADD_TER   CB28   1     "Net-(CB28-Pad1)"
+.TER       U16   10
+            U16   11
+
+.ADD_TER   U16   14     "Net-(TH15-Pad1)"
+.TER       TH15   1
+
+.ADD_TER   U16   15     "Net-(TH14-Pad1)"
+.TER       TH14   1
+
+.ADD_TER   U16   16     "Net-(R50-Pad2)"
+.TER       R50   2
+
+.ADD_TER   P1   4     "PWR_BTN"
+.TER       R49   1
+
+.ADD_TER   SW1   1     "RST_BTN"
+.TER       P1   6
+            R50   1
+
+.ADD_TER   U16   12     "/+5F"
+.TER       CE4   1
+            CB27   1
+            CON1   1
+
+.ADD_TER   R46   2     "/USBDM"
+.TER       CON1   2
+            CC4   1
+
+.ADD_TER   CON1   3     "/USBDP"
+.TER       CC3   1
+            R48   2
+
+.ADD_TER   U19   2     "+5V"
+.TER       CB34   1
+            U10   3
+            CB18   1
+            CE10   1
+
+.ADD_TER   P1   13     "Net-(P1-Pad13)"
+.TER       U16   4
+
+.ADD_TER   P1   36     "/NCP1117s/SYSDC_IN"
+.TER       CB29   1
+            U18   3
+            U17   3
+            P1   38
+            CE7   1
+            CB31   1
+            P2   2
+            P2   1
+            CE5   1
+
+.ADD_TER   U16   9     "Net-(R46-Pad1)"
+.TER       R46   1
+
+.ADD_TER   U16   1     "Net-(P1-Pad11)"
+.TER       P1   11
+
+.ADD_TER   U5   8     "/can/SCLK"
+.TER       U9   4
+            U11   13
+            U6   23
+            U7   23
+            U1   21
+
+.ADD_TER   U6   22     "/spi/~MPU600_CS"
+.TER       R23   2
+            U1   17
+
+.ADD_TER   U1   18     "/spi/~MPU9250_CS"
+.TER       U7   22
+            R24   2
+
+.ADD_TER   U2   18     "Net-(P1-Pad7)"
+.TER       P1   7
+
+.ADD_TER   R47   2     "Net-(R47-Pad2)"
+.TER       U16   6
+
+.ADD_TER   U16   5     "GND"
+.TER       U9   46
+            CON1   6
+            U8   2
+            CON1   5
+            P4   6
+            P5   6
+            P1   39
+            U9   10
+            CON1   7
+            CON1   9
+            CON1   8
+            CC4   2
+            CC3   2
+            U1   13
+            U1   11
+            U1   12
+            CB16   2
+            CB28   2
+            R47   1
+            CB15   2
+            CB14   2
+            CB17   2
+            CE1   2
+            P3   6
+            SW1   2
+            CB8   2
+            CB23   2
+            CB24   2
+            U14   1
+            P9   5
+            U14   5
+            U14   7
+            CE3   2
+            U4   1
+            SW2   6
+            SW2   5
+            LED9   1
+            LED10   1
+            LED11   1
+            SW2   7
+            P6   6
+            LED12   1
+            P7   6
+            CB6   2
+            CE2   2
+            SW2   8
+            U17   1
+            CB33   2
+            U2   13
+            U2   12
+            P10   4
+            P11   4
+            P12   4
+            U15   5
+            U15   1
+            CE6   2
+            CE9   2
+            CB34   2
+            CE10   2
+            CB30   2
+            CB31   2
+            CE7   2
+            CB32   2
+            U2   11
+            U19   1
+            U18   1
+            CE8   2
+            Q2   2
+            Q1   2
+            CB29   2
+            CE5   2
+            U11   9
+            U3   1
+            U10   2
+            U10   8
+            CB20   2
+            CB27   2
+            CB18   2
+            CE4   2
+            CB26   2
+            CB25   2
+            U15   7
+            U16   13
+            U12   2
+            CB19   2
+            CB22   2
+            U6   18
+            U7   18
+            P1   2
+            CB21   2
+            P1   1
+            CB4   2
+            CB3   2
+            CB11   2
+            CB9   2
+            U5   3
+            CC1   2
+            CB5   2
+            CB12   2
+            P2   4
+            CB1   2
+            U13   11
+            CB7   2
+            P2   3
+            U13   9
+            R15   2
+            R12   2
+            CB13   2
+            R14   2
+            R13   2
+            CB10   2
+            CB2   2
+            U5   2
+
+.ADD_TER   U16   8     "Net-(R48-Pad1)"
+.TER       R48   1
+
+.ADD_TER   U4   3     "I2C1_SCL"
+.TER       P1   19
+
+.ADD_TER   R6   2     "SPI0_CS"
+.TER       P1   12
+            U1   5
+
+.ADD_TER   P1   23     "GPIO_A"
+.TER       U1   6
+            R7   2
+
+.ADD_TER   U1   7     "GPIO_B"
+.TER       P1   24
+            R8   2
+
+.ADD_TER   U3   3     "I2C0_SCL"
+.TER       P1   15
+
+.ADD_TER   P1   14     "SPI0_MOSI"
+.TER       U1   4
+
+.ADD_TER   U3   4     "I2C0_SDA"
+.TER       P1   17
+
+.ADD_TER   U14   3     "/i2c0/I2C0_SDA_3V3"
+.TER       P9   3
+            R18   2
+            U13   16
+            U3   5
+
+.ADD_TER   R16   2     "Net-(CB6-Pad1)"
+.TER       CB6   1
+            U3   7
+            U3   8
+
+.ADD_TER   U4   7     "Net-(CB8-Pad1)"
+.TER       R19   2
+            U4   8
+            CB8   1
+
+.ADD_TER   U1   14     "/i2c0/PCA9685_OE"
+.TER       P9   4
+
+.ADD_TER   U11   16     "/can/~CAN_CS"
+.TER       R43   2
+            U1   15
+
+.ADD_TER   P1   8     "SPI0_SCK"
+.TER       U1   3
+
+.ADD_TER   P1   10     "SPI0_MISO"
+.TER       U2   21
+
+.ADD_TER   P1   21     "I2C1_SDA"
+.TER       U4   4
+
+.ADD_TER   U9   6     "/can/MOSI"
+.TER       U7   24
+            U6   24
+            U11   14
+            U1   20
+            U5   7
+
+.ADD_TER   R33   2     "/max/~MAX14830_CS"
+.TER       U9   5
+            U1   16
+
+.ADD_TER   U7   9     "/can/MISO"
+.TER       U2   3
+            U9   3
+            U6   9
+            U11   15
+            U5   6
+
+.ADD_TER   P10   3     "/i2c1/I2C1_SDA_3V3"
+.TER       U15   3
+            P11   3
+            R21   2
+            U4   5
+            P12   3
+
+.ADD_TER   P10   2     "/i2c1/I2C1_SCL_3V3"
+.TER       U4   6
+            R20   2
+            P11   2
+            U15   4
+            P12   2
+
+.ADD_TER   R22   2     "/spi/~MS5611_CS"
+.TER       U5   5
+            U1   19
+            U5   4
+
+.ADD_TER   R8   1     "+1V8"
+.TER       U1   2
+            U16   3
+            R6   1
+            R4   1
+            U1   1
+            R7   1
+            U4   2
+            U2   23
+            U2   24
+            CB1   1
+            CB4   1
+            R11   1
+            R10   1
+            R9   1
+            CB30   1
+            CE6   1
+            CB7   1
+            CB5   1
+            U17   2
+            U3   2
+
+.ADD_TER   U14   4     "/i2c0/I2C0_SCL_3V3"
+.TER       U3   6
+            U13   1
+            P9   2
+            R17   2
+
+.ADD_TER   R45   2     "/can/~CAN_IRQ"
+.TER       U2   5
+            U11   12
+
+.ADD_TER   U6   21     "Net-(CC1-Pad1)"
+.TER       CC1   1
+
+.ADD_TER   CC2   2     "Net-(CC2-Pad2)"
+.TER       U13   8
+
+.ADD_TER   CC2   1     "Net-(CC2-Pad1)"
+.TER       U13   12
+
+.ADD_TER   U13   10     "Net-(CE3-Pad1)"
+.TER       CE3   1
+
+.ADD_TER   TH5   1     "Net-(TH5-Pad1)"
+.TER       U9   45
+            U8   3
+
+.ADD_TER   R32   1     "Net-(LED8-Pad1)"
+.TER       LED8   1
+
+.ADD_TER   R32   2     "/max/gpio7"
+.TER       U9   22
+
+.ADD_TER   P6   5     "Net-(P6-Pad5)"
+.TER       U9   26
+
+.ADD_TER   U9   48     "Net-(CE1-Pad1)"
+.TER       CE1   1
+
+.ADD_TER   R25   1     "Net-(LED1-Pad1)"
+.TER       LED1   1
+
+.ADD_TER   SW2   4     "/max/gpio11"
+.TER       R38   2
+            U9   30
+
+.ADD_TER   U9   29     "/max/gpio10"
+.TER       SW2   3
+            R37   2
+
+.ADD_TER   U9   28     "/max/gpio9"
+.TER       SW2   2
+            R36   2
+
+.ADD_TER   R31   1     "Net-(LED7-Pad1)"
+.TER       LED7   1
+
+.ADD_TER   U9   21     "/max/gpio6"
+.TER       R31   2
+
+.ADD_TER   R30   1     "Net-(LED6-Pad1)"
+.TER       LED6   1
+
+.ADD_TER   R30   2     "/max/gpio5"
+.TER       U9   20
+
+.ADD_TER   LED5   1     "Net-(LED5-Pad1)"
+.TER       R29   1
+
+.ADD_TER   R29   2     "/max/gpio4"
+.TER       U9   19
+
+.ADD_TER   R28   1     "Net-(LED4-Pad1)"
+.TER       LED4   1
+
+.ADD_TER   U9   14     "/max/gpio3"
+.TER       R28   2
+
+.ADD_TER   LED3   1     "Net-(LED3-Pad1)"
+.TER       R27   1
+
+.ADD_TER   R27   2     "/max/gpio2"
+.TER       U9   13
+
+.ADD_TER   LED2   1     "Net-(LED2-Pad1)"
+.TER       R26   1
+
+.ADD_TER   U9   34     "Net-(P5-Pad5)"
+.TER       P5   5
+
+.ADD_TER   P5   2     "Net-(P5-Pad2)"
+.TER       U9   31
+
+.ADD_TER   U9   32     "Net-(P5-Pad3)"
+.TER       P5   3
+
+.ADD_TER   P5   4     "Net-(P5-Pad4)"
+.TER       U9   33
+
+.ADD_TER   P7   5     "Net-(P7-Pad5)"
+.TER       U9   18
+
+.ADD_TER   P7   2     "Net-(P7-Pad2)"
+.TER       U9   15
+
+.ADD_TER   P7   3     "Net-(P7-Pad3)"
+.TER       U9   16
+
+.ADD_TER   P7   4     "Net-(P7-Pad4)"
+.TER       U9   17
+
+.ADD_TER   P6   3     "Net-(P6-Pad3)"
+.TER       U9   24
+
+.ADD_TER   P6   4     "Net-(P6-Pad4)"
+.TER       U9   25
+
+.ADD_TER   LED9   2     "Net-(LED9-Pad2)"
+.TER       R39   1
+
+.ADD_TER   LED10   2     "Net-(LED10-Pad2)"
+.TER       R40   1
+
+.ADD_TER   R41   1     "Net-(LED11-Pad2)"
+.TER       LED11   2
+
+.ADD_TER   U9   35     "/max/gpio12"
+.TER       R39   2
+            TH6   1
+
+.ADD_TER   TH7   1     "/max/gpio13"
+.TER       U9   36
+            R40   2
+
+.ADD_TER   R41   2     "/max/gpio14"
+.TER       TH8   1
+            U9   37
+
+.ADD_TER   R42   1     "Net-(LED12-Pad2)"
+.TER       LED12   2
+
+.ADD_TER   R42   2     "/max/gpio15"
+.TER       TH9   1
+            U9   38
+
+.ADD_TER   R26   2     "/max/gpio1"
+.TER       U9   12
+
+.ADD_TER   U9   42     "Net-(P4-Pad5)"
+.TER       P4   5
+
+.ADD_TER   P6   2     "Net-(P6-Pad2)"
+.TER       U9   23
+
+.ADD_TER   U9   41     "Net-(P4-Pad4)"
+.TER       P4   4
+
+.ADD_TER   P4   3     "Net-(P4-Pad3)"
+.TER       U9   40
+
+.ADD_TER   U9   11     "/max/gpio0"
+.TER       R25   2
+
+.ADD_TER   P4   2     "Net-(P4-Pad2)"
+.TER       U9   39
+
+.ADD_TER   U9   27     "/max/gpio8"
+.TER       SW2   1
+            R35   2
+
+.ADD_TER   TH10   1     "Net-(TH10-Pad1)"
+.TER       U11   3
+
+.ADD_TER   TH11   1     "Net-(TH11-Pad1)"
+.TER       U10   5
+
+.ADD_TER   R44   2     "Net-(P8-Pad3)"
+.TER       P8   3
+            U10   7
+
+.ADD_TER   U11   2     "Net-(U10-Pad4)"
+.TER       U10   4
+
+.ADD_TER   R44   1     "Net-(P8-Pad2)"
+.TER       U10   6
+            P8   2
+
+.ADD_TER   U10   1     "Net-(U10-Pad1)"
+.TER       U11   1
+
+.ADD_TER   TH12   1     "Net-(TH12-Pad1)"
+.TER       U11   8
+            U12   3
+
+.ADD_TER   CB33   1     "Net-(CB33-Pad1)"
+.TER       U19   3
+            CE9   1
+
+.END

@@ -1,0 +1,326 @@
+EESchema Schematic File Version 2
+LIBS:yatagarasu
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:yatagarasu-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 9 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L GND #PWR?
+U 1 1 57072A00
+P 5500 2950
+F 0 "#PWR?" H 5500 2700 50  0001 C CNN
+F 1 "GND" H 5500 2800 50  0000 C CNN
+F 2 "" H 5500 2950 60  0000 C CNN
+F 3 "" H 5500 2950 60  0000 C CNN
+	1    5500 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP CE?
+U 1 1 57072A06
+P 6050 2550
+F 0 "CE?" H 6075 2650 50  0000 L CNN
+F 1 "22uF" H 6075 2450 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6088 2400 50  0001 C CNN
+F 3 "" H 6050 2550 50  0000 C CNN
+	1    6050 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C CB?
+U 1 1 57072A0D
+P 6350 2550
+F 0 "CB?" H 6375 2650 50  0000 L CNN
+F 1 "104" H 6375 2450 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6388 2400 30  0001 C CNN
+F 3 "" H 6350 2550 60  0000 C CNN
+	1    6350 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP CE?
+U 1 1 57072A14
+P 4950 2550
+F 0 "CE?" H 4975 2650 50  0000 L CNN
+F 1 "22uF" H 4975 2450 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4988 2400 50  0001 C CNN
+F 3 "" H 4950 2550 50  0000 C CNN
+	1    4950 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C CB?
+U 1 1 57072A1B
+P 4600 2550
+F 0 "CB?" H 4625 2650 50  0000 L CNN
+F 1 "104" H 4625 2450 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4638 2400 30  0001 C CNN
+F 3 "" H 4600 2550 60  0000 C CNN
+	1    4600 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 2400 5100 2400
+Wire Wire Line
+	5900 2400 6350 2400
+Wire Wire Line
+	4600 2700 4600 2950
+Wire Wire Line
+	4600 2950 6350 2950
+Wire Wire Line
+	6350 2950 6350 2700
+Connection ~ 5500 2950
+Wire Wire Line
+	4950 2700 4950 2950
+Connection ~ 4950 2950
+Wire Wire Line
+	6050 2700 6050 2950
+Connection ~ 6050 2950
+$Comp
+L GND #PWR?
+U 1 1 57072A2C
+P 5500 4200
+F 0 "#PWR?" H 5500 3950 50  0001 C CNN
+F 1 "GND" H 5500 4050 50  0000 C CNN
+F 2 "" H 5500 4200 60  0000 C CNN
+F 3 "" H 5500 4200 60  0000 C CNN
+	1    5500 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP CE?
+U 1 1 57072A32
+P 6050 3800
+F 0 "CE?" H 6075 3900 50  0000 L CNN
+F 1 "22uF" H 6075 3700 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6088 3650 50  0001 C CNN
+F 3 "" H 6050 3800 50  0000 C CNN
+	1    6050 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L C CB?
+U 1 1 57072A39
+P 6350 3800
+F 0 "CB?" H 6375 3900 50  0000 L CNN
+F 1 "104" H 6375 3700 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6388 3650 30  0001 C CNN
+F 3 "" H 6350 3800 60  0000 C CNN
+	1    6350 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP CE?
+U 1 1 57072A40
+P 4950 3800
+F 0 "CE?" H 4975 3900 50  0000 L CNN
+F 1 "22uF" H 4975 3700 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4988 3650 50  0001 C CNN
+F 3 "" H 4950 3800 50  0000 C CNN
+	1    4950 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L C CB?
+U 1 1 57072A47
+P 4600 3800
+F 0 "CB?" H 4625 3900 50  0000 L CNN
+F 1 "104" H 4625 3700 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4638 3650 30  0001 C CNN
+F 3 "" H 4600 3800 60  0000 C CNN
+	1    4600 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 3650 5100 3650
+Wire Wire Line
+	5900 3650 6350 3650
+Wire Wire Line
+	4600 3950 4600 4200
+Wire Wire Line
+	4600 4200 6350 4200
+Wire Wire Line
+	6350 4200 6350 3950
+Connection ~ 5500 4200
+Wire Wire Line
+	4950 3950 4950 4200
+Connection ~ 4950 4200
+Wire Wire Line
+	6050 3950 6050 4200
+Connection ~ 6050 4200
+$Comp
+L GND #PWR?
+U 1 1 57072A58
+P 5500 5300
+F 0 "#PWR?" H 5500 5050 50  0001 C CNN
+F 1 "GND" H 5500 5150 50  0000 C CNN
+F 2 "" H 5500 5300 60  0000 C CNN
+F 3 "" H 5500 5300 60  0000 C CNN
+	1    5500 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP CE?
+U 1 1 57072A5E
+P 6050 4900
+F 0 "CE?" H 6075 5000 50  0000 L CNN
+F 1 "22uF" H 6075 4800 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6088 4750 50  0001 C CNN
+F 3 "" H 6050 4900 50  0000 C CNN
+	1    6050 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C CB?
+U 1 1 57072A65
+P 6350 4900
+F 0 "CB?" H 6375 5000 50  0000 L CNN
+F 1 "104" H 6375 4800 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6388 4750 30  0001 C CNN
+F 3 "" H 6350 4900 60  0000 C CNN
+	1    6350 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP CE?
+U 1 1 57072A6C
+P 4950 4900
+F 0 "CE?" H 4975 5000 50  0000 L CNN
+F 1 "22uF" H 4975 4800 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4988 4750 50  0001 C CNN
+F 3 "" H 4950 4900 50  0000 C CNN
+	1    4950 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C CB?
+U 1 1 57072A73
+P 4600 4900
+F 0 "CB?" H 4625 5000 50  0000 L CNN
+F 1 "104" H 4625 4800 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4638 4750 30  0001 C CNN
+F 3 "" H 4600 4900 60  0000 C CNN
+	1    4600 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 4750 5100 4750
+Wire Wire Line
+	5900 4750 6350 4750
+Wire Wire Line
+	4600 5050 4600 5300
+Wire Wire Line
+	4600 5300 6350 5300
+Wire Wire Line
+	6350 5300 6350 5050
+Connection ~ 5500 5300
+Wire Wire Line
+	4950 5050 4950 5300
+Connection ~ 4950 5300
+Wire Wire Line
+	6050 5050 6050 5300
+Connection ~ 6050 5300
+Text HLabel 4150 2400 0    60   Input ~ 0
+SYSDC_IN
+Wire Wire Line
+	4350 2400 4350 4750
+Connection ~ 4350 3650
+Text HLabel 6350 2200 1    60   Output ~ 0
+1V8
+Text HLabel 6350 3450 1    60   Output ~ 0
+3V3
+Text HLabel 6350 4550 1    60   Output ~ 0
+5V
+Connection ~ 4350 2400
+Wire Wire Line
+	6350 2400 6350 2200
+Wire Wire Line
+	6350 3650 6350 3450
+Wire Wire Line
+	6350 4750 6350 4550
+$Comp
+L NCP1117ST18T3G U?
+U 1 1 57072A9F
+P 5500 2450
+F 0 "U?" H 5500 2750 50  0000 C CNN
+F 1 "NCP1117ST18T3G" H 5500 2650 50  0000 C CNN
+F 2 "" H 5500 2450 50  0000 C CNN
+F 3 "" H 5500 2450 50  0000 C CNN
+	1    5500 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L NCP1117ST33T3G U?
+U 1 1 57072B3B
+P 5500 3700
+F 0 "U?" H 5500 4000 50  0000 C CNN
+F 1 "NCP1117ST33T3G" H 5500 3900 50  0000 C CNN
+F 2 "" H 5500 3700 50  0000 C CNN
+F 3 "" H 5500 3700 50  0000 C CNN
+	1    5500 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L NCP1117ST50T3G U?
+U 1 1 57072B8C
+P 5500 4800
+F 0 "U?" H 5500 5100 50  0000 C CNN
+F 1 "NCP1117ST50T3G" H 5500 5000 50  0000 C CNN
+F 2 "" H 5500 4800 50  0000 C CNN
+F 3 "" H 5500 4800 50  0000 C CNN
+	1    5500 4800
+	1    0    0    -1  
+$EndComp
+Connection ~ 6050 2400
+Connection ~ 4950 2400
+Wire Wire Line
+	5500 2700 5500 2950
+Connection ~ 6050 3650
+Connection ~ 4950 3650
+Wire Wire Line
+	5500 3950 5500 4200
+Connection ~ 6050 4750
+Connection ~ 4950 4750
+Wire Wire Line
+	5500 5050 5500 5300
+$EndSCHEMATC

@@ -1,0 +1,335 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:yatagarasu-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 8 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L AP1117 U17
+U 1 1 57042A76
+P 4650 2250
+F 0 "U17" H 4750 2000 50  0000 C CNN
+F 1 "AP1117" H 4650 2500 50  0000 C CNN
+F 2 "Sensors:SOT-23_Seeed" H 4650 2250 50  0001 C CNN
+F 3 "" H 4650 2250 50  0000 C CNN
+	1    4650 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R RK1
+U 1 1 57042A7D
+P 5200 2400
+F 0 "RK1" V 5280 2400 50  0000 C CNN
+F 1 "7.5K" V 5200 2400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 5130 2400 50  0001 C CNN
+F 3 "" H 5200 2400 50  0000 C CNN
+	1    5200 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R RK2
+U 1 1 57042A84
+P 5200 2750
+F 0 "RK2" V 5280 2750 50  0000 C CNN
+F 1 "3.3K" V 5200 2750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 5130 2750 50  0001 C CNN
+F 3 "" H 5200 2750 50  0000 C CNN
+	1    5200 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP CD4
+U 1 1 57042A8B
+P 5450 2400
+F 0 "CD4" H 5475 2500 50  0000 L CNN
+F 1 "22uF" H 5475 2300 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5488 2250 50  0001 C CNN
+F 3 "" H 5450 2400 50  0000 C CNN
+	1    5450 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP CD5
+U 1 1 57042A92
+P 4650 2750
+F 0 "CD5" H 4675 2850 50  0000 L CNN
+F 1 "4.7uF" H 4675 2650 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4688 2600 50  0001 C CNN
+F 3 "" H 4650 2750 50  0000 C CNN
+	1    4650 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0100
+U 1 1 57042A99
+P 4650 2900
+F 0 "#PWR0100" H 4650 2650 50  0001 C CNN
+F 1 "GND" H 4650 2750 50  0000 C CNN
+F 2 "" H 4650 2900 60  0000 C CNN
+F 3 "" H 4650 2900 60  0000 C CNN
+	1    4650 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L AP1117 U18
+U 1 1 57042A9F
+P 4650 3400
+F 0 "U18" H 4750 3150 50  0000 C CNN
+F 1 "AP1117" H 4650 3650 50  0000 C CNN
+F 2 "Sensors:SOT-23_Seeed" H 4650 3400 50  0001 C CNN
+F 3 "" H 4650 3400 50  0000 C CNN
+	1    4650 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R RK3
+U 1 1 57042AA6
+P 5200 3550
+F 0 "RK3" V 5280 3550 50  0000 C CNN
+F 1 "2K" V 5200 3550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 5130 3550 50  0001 C CNN
+F 3 "" H 5200 3550 50  0000 C CNN
+	1    5200 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R RK4
+U 1 1 57042AAD
+P 5200 3900
+F 0 "RK4" V 5280 3900 50  0000 C CNN
+F 1 "3.3K" V 5200 3900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 5130 3900 50  0001 C CNN
+F 3 "" H 5200 3900 50  0000 C CNN
+	1    5200 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP CD6
+U 1 1 57042AB4
+P 5450 3550
+F 0 "CD6" H 5475 3650 50  0000 L CNN
+F 1 "22uF" H 5475 3450 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5488 3400 50  0001 C CNN
+F 3 "" H 5450 3550 50  0000 C CNN
+	1    5450 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP CD7
+U 1 1 57042ABB
+P 4650 3900
+F 0 "CD7" H 4675 4000 50  0000 L CNN
+F 1 "4.7uF" H 4675 3800 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4688 3750 50  0001 C CNN
+F 3 "" H 4650 3900 50  0000 C CNN
+	1    4650 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0101
+U 1 1 57042AC2
+P 4650 4050
+F 0 "#PWR0101" H 4650 3800 50  0001 C CNN
+F 1 "GND" H 4650 3900 50  0000 C CNN
+F 2 "" H 4650 4050 60  0000 C CNN
+F 3 "" H 4650 4050 60  0000 C CNN
+	1    4650 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L AP1117 U19
+U 1 1 57042AC8
+P 4650 4550
+F 0 "U19" H 4750 4300 50  0000 C CNN
+F 1 "AP1117" H 4650 4800 50  0000 C CNN
+F 2 "Sensors:SOT-23_Seeed" H 4650 4550 50  0001 C CNN
+F 3 "" H 4650 4550 50  0000 C CNN
+	1    4650 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R RK5
+U 1 1 57042ACF
+P 5200 4700
+F 0 "RK5" V 5280 4700 50  0000 C CNN
+F 1 "1K" V 5200 4700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 5130 4700 50  0001 C CNN
+F 3 "" H 5200 4700 50  0000 C CNN
+	1    5200 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R RK6
+U 1 1 57042AD6
+P 5200 5050
+F 0 "RK6" V 5280 5050 50  0000 C CNN
+F 1 "3K" V 5200 5050 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 5130 5050 50  0001 C CNN
+F 3 "" H 5200 5050 50  0000 C CNN
+	1    5200 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP CD8
+U 1 1 57042ADD
+P 5450 4700
+F 0 "CD8" H 5475 4800 50  0000 L CNN
+F 1 "22uF" H 5475 4600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5488 4550 50  0001 C CNN
+F 3 "" H 5450 4700 50  0000 C CNN
+	1    5450 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP CD10
+U 1 1 57042AE4
+P 4650 5050
+F 0 "CD10" H 4675 5150 50  0000 L CNN
+F 1 "4.7uF" H 4675 4950 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4688 4900 50  0001 C CNN
+F 3 "" H 4650 5050 50  0000 C CNN
+	1    4650 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0102
+U 1 1 57042AEB
+P 4650 5200
+F 0 "#PWR0102" H 4650 4950 50  0001 C CNN
+F 1 "GND" H 4650 5050 50  0000 C CNN
+F 2 "" H 4650 5200 60  0000 C CNN
+F 3 "" H 4650 5200 60  0000 C CNN
+	1    4650 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP CD9
+U 1 1 57042AF1
+P 4200 5050
+F 0 "CD9" H 4225 5150 50  0000 L CNN
+F 1 "47uF" H 4225 4950 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4238 4900 50  0001 C CNN
+F 3 "" H 4200 5050 50  0000 C CNN
+	1    4200 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0103
+U 1 1 57042AF8
+P 4200 5200
+F 0 "#PWR0103" H 4200 4950 50  0001 C CNN
+F 1 "GND" H 4200 5050 50  0000 C CNN
+F 2 "" H 4200 5200 60  0000 C CNN
+F 3 "" H 4200 5200 60  0000 C CNN
+	1    4200 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 2800 3050 2800
+Connection ~ 4200 2800
+Wire Wire Line
+	4950 2250 5450 2250
+Connection ~ 5200 2250
+Wire Wire Line
+	5200 2550 5200 2600
+Wire Wire Line
+	4650 2900 5450 2900
+Wire Wire Line
+	5450 2900 5450 2550
+Connection ~ 5200 2900
+Wire Wire Line
+	4650 2550 4650 2600
+Wire Wire Line
+	4650 2550 5200 2550
+Wire Wire Line
+	4350 2250 4200 2250
+Wire Wire Line
+	4950 3400 5450 3400
+Connection ~ 5200 3400
+Wire Wire Line
+	5200 3700 5200 3750
+Wire Wire Line
+	4650 4050 5450 4050
+Wire Wire Line
+	5450 4050 5450 3700
+Connection ~ 5200 4050
+Wire Wire Line
+	4650 3700 4650 3750
+Wire Wire Line
+	4650 3700 5200 3700
+Wire Wire Line
+	4950 4550 5450 4550
+Connection ~ 5200 4550
+Wire Wire Line
+	5200 4850 5200 4900
+Wire Wire Line
+	4650 5200 5450 5200
+Wire Wire Line
+	5450 5200 5450 4850
+Connection ~ 5200 5200
+Wire Wire Line
+	4650 4850 4650 4900
+Wire Wire Line
+	4650 4850 5200 4850
+Wire Wire Line
+	4200 3400 4350 3400
+Wire Wire Line
+	4200 4550 4350 4550
+Connection ~ 4200 3400
+Connection ~ 4200 4550
+Wire Wire Line
+	5450 2250 5450 2100
+Wire Wire Line
+	5450 3400 5450 3300
+Wire Wire Line
+	5450 4550 5450 4400
+Wire Wire Line
+	4200 2250 4200 4900
+Text HLabel 3050 2800 0    60   Input ~ 0
+SYSDC_IN
+Text HLabel 5450 2100 1    60   Output ~ 0
+1.8V
+Text HLabel 5450 3300 1    60   Output ~ 0
+3.3V
+Text HLabel 5450 4400 1    60   Output ~ 0
+5V
+$EndSCHEMATC

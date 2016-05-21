@@ -1,0 +1,35 @@
+Licenses list
+Copyright (c) 2016 DroneWorks Inc.
+All rights reserved.
+Creative Commons
+Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+http://creativecommons.org/licenses/by-sa/4.0/
+License of files included:
+yatagarasu.lib
+  Copyright (c) 2016 DroneWorks Inc.
+  Creative Commons
+  Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+  http://creativecommons.org/licenses/by-sa/4.0/
+can.lib
+  Copyright (c) 2016 DroneWorks Inc.
+  Creative Commons
+  Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+  http://creativecommons.org/licenses/by-sa/4.0/
+Sensors.lib
+  https://github.com/96boards/96boards-sensors/blob/master/Sensors.lib
+  Modified BSD 2 Clause license
+  https://opensource.org/licenses/BSD-2-Clause
+96boards.lib
+  https://github.com/96boards/96boards-uart/blob/master/96boards-uart.lib
+  Modified BSD 2 Clause license
+  https://opensource.org/licenses/BSD-2-Clause
+serial.lib
+  https://github.com/cjlano/kicad-lib/blob/master/serial.lib
+  License unspecified
+ams1117.lib
+  https://github.com/nekromant/nc-libs/blob/master/AMS1117.lib
+  License unspecified
+Sensors.pretty directory
+  https://github.com/96boards/96boards-sensors/tree/master/Sensors.pretty
+  Modified BSD 2 Clause license
+  https://opensource.org/licenses/BSD-2-Clause

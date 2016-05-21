@@ -1,0 +1,188 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:yatagarasu
+LIBS:Sensors
+LIBS:can
+LIBS:newdrone-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ADW22441 U18
+U 1 1 56FA9D83
+P 4750 3050
+F 0 "U18" H 4650 3050 60  0000 C CNN
+F 1 "ADW22441" H 4750 3150 60  0000 C CNN
+F 2 "" H 4750 3050 60  0001 C CNN
+F 3 "" H 4750 3050 60  0000 C CNN
+	1    4750 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR090
+U 1 1 56FAA100
+P 5300 3650
+F 0 "#PWR090" H 5300 3400 50  0001 C CNN
+F 1 "GND" H 5300 3500 50  0000 C CNN
+F 2 "" H 5300 3650 50  0000 C CNN
+F 3 "" H 5300 3650 50  0000 C CNN
+	1    5300 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L +1V8 #PWR091
+U 1 1 56FAA116
+P 5150 2400
+F 0 "#PWR091" H 5150 2250 50  0001 C CNN
+F 1 "+1V8" H 5150 2540 50  0000 C CNN
+F 2 "" H 5150 2400 50  0000 C CNN
+F 3 "" H 5150 2400 50  0000 C CNN
+	1    5150 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 3450 5150 3550
+Wire Wire Line
+	5150 3550 5300 3550
+Wire Wire Line
+	5300 3150 5300 3650
+Wire Wire Line
+	5150 3150 5300 3150
+Connection ~ 5300 3550
+Wire Wire Line
+	5150 2400 5150 3350
+Connection ~ 5150 3250
+$Comp
+L R R54
+U 1 1 56FAA162
+P 4150 2850
+F 0 "R54" V 4230 2850 50  0000 C CNN
+F 1 "22K" V 4150 2850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 4080 2850 50  0001 C CNN
+F 3 "" H 4150 2850 50  0000 C CNN
+	1    4150 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 2700 5300 2700
+Connection ~ 5150 2700
+Wire Wire Line
+	4150 3000 4150 3450
+Wire Wire Line
+	4150 3450 4300 3450
+$Comp
+L GND #PWR092
+U 1 1 56FAA1C7
+P 4150 4050
+F 0 "#PWR092" H 4150 3800 50  0001 C CNN
+F 1 "GND" H 4150 3900 50  0000 C CNN
+F 2 "" H 4150 4050 50  0000 C CNN
+F 3 "" H 4150 4050 50  0000 C CNN
+	1    4150 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L JUMPER JP1
+U 1 1 56FAA1D8
+P 4150 3750
+F 0 "JP1" H 4150 3900 50  0000 C CNN
+F 1 "JUMPER" H 4150 3670 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 4150 3750 50  0001 C CNN
+F 3 "" H 4150 3750 50  0000 C CNN
+	1    4150 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C42
+U 1 1 56FAA2A0
+P 5300 3000
+F 0 "C42" H 5325 3100 50  0000 L CNN
+F 1 "104" H 5325 2900 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5338 2850 50  0001 C CNN
+F 3 "" H 5300 3000 50  0000 C CNN
+	1    5300 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 2700 5300 2850
+Text HLabel 3450 3150 0    60   Input ~ 0
+I2S_SCK
+Text HLabel 3450 3250 0    60   Output ~ 0
+I2S_SD
+Text HLabel 3450 3350 0    60   Input ~ 0
+I2S_WS
+Wire Wire Line
+	4300 3150 3450 3150
+Wire Wire Line
+	4300 3250 3450 3250
+Wire Wire Line
+	4300 3350 3450 3350
+Connection ~ 5300 3150
+$Comp
+L R R53
+U 1 1 56FAA44E
+P 3700 3750
+F 0 "R53" V 3780 3750 50  0000 C CNN
+F 1 "100K" V 3700 3750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 3630 3750 50  0001 C CNN
+F 3 "" H 3700 3750 50  0000 C CNN
+	1    3700 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR093
+U 1 1 56FAA488
+P 3700 4050
+F 0 "#PWR093" H 3700 3800 50  0001 C CNN
+F 1 "GND" H 3700 3900 50  0000 C CNN
+F 2 "" H 3700 4050 50  0000 C CNN
+F 3 "" H 3700 4050 50  0000 C CNN
+	1    3700 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 4050 3700 3900
+Wire Wire Line
+	3700 3600 3700 3250
+Connection ~ 3700 3250
+Connection ~ 4150 3450
+$EndSCHEMATC
