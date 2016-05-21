@@ -35,14 +35,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 6
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Title "DCoJA Yatagarasu Mezzanine"
+Date "2016-05-21"
+Rev "0.01"
+Comp "DroneWorks Inc."
+Comment1 "Copyright (c) 2016 DroneWorks Inc."
+Comment2 "All rights reserved."
+Comment3 "Creative Commons  (CC BY-SA 4.0)"
+Comment4 "Designed by: Michihiro Imaoka (@imaoca)"
 $EndDescr
 $Comp
 L PCA9306 U3
@@ -2068,10 +2068,10 @@ F 3 "" H 7950 3250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +12V #PWR?
+L +12V #PWR048
 U 1 1 57401880
 P 10300 1600
-F 0 "#PWR?" H 10300 1450 50  0001 C CNN
+F 0 "#PWR048" H 10300 1450 50  0001 C CNN
 F 1 "+12V" H 10300 1740 50  0000 C CNN
 F 2 "" H 10300 1600 50  0000 C CNN
 F 3 "" H 10300 1600 50  0000 C CNN

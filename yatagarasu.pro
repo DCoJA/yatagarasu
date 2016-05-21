@@ -1,4 +1,4 @@
-update=2016/04/06 8:56:43
+update=Sat 21 May 2016 03:43:01 PM JST
 version=1
 last_client=kicad
 [general]
@@ -61,3 +61,13 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
+[schematic_editor]
+version=1
+PageLayoutDescrFile=yatagarasu.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
